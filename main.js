@@ -7,7 +7,7 @@ app.use(cors({
   credentials: true
 }));
 
-app.get('/load', (req, res) => {
+app.get('/pronote', (req, res) => {
   res.send('Gm class!');
 });
 
